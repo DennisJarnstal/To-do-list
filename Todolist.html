@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css"/>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <title>To do</title>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3"></div>
+    <div class="card rounded-4 mt-3 card-header col-md-6 mb-3">
+        <div class="card-body row">
+            <h2 class="card-title text-center mb-3">Inköpslista</h2>
+            <div class="row">
+            <div class="col-8">
+            <input type="text" id="myInput" placeholder="Skriv in ny vara">
+            </div>
+            <button id="newItem" class="btn btn-light col-4">Lägg till</button>    
+          </div>
+        </div>
+    </div>
+</div>
+    <div class="row">  
+      <div class="col-md-3"></div>
+      <div class="col-md-6">  
+      <ul id="myList">
+        <li>Avocado</li>
+        <li>Mjölk</li>
+        <li>Smör</li>
+        <li class="checked">Cola</li>
+        <li>Chips</li>
+      </ul>
+    </div> 
+    </div> 
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3"></div>
+        <div class="card rounded-4 my-3 card-header col-md-6">
+    <div class="row">
+      <div class="col-md-3">Bish värde</div>
+      <div class="col-md-3">Bosh värde</div>
+      <div class="col-md-3">Räkna till max</div>
+      <div class="col-md-3">Räkna till min</div>
+    </div>
+  <div class="row">
+    <div class="col-md-3"><input type="number" id="bishInput" value="3"></div>
+    <div class="col-md-3"><input type="number" id="boshInput" value="4"></div>
+    <div class="col-md-3"><input type="number" id="bishboshMaxInput" value="100"></div>
+    <div class="col-md-3"><input type="number" id="bishboshMinInput" value="0"></div>
+  </div>
+  <button id="bishBoshDisplay" class="btn btn-light col-6 my-3">Visa Bish Bosh</button>
+</div>
+</div>
+    <div class="col-md-6"><span id="bishBosh"></span></div>
+  </div>
+<script src="java.js"></script>
+</body>
+</html>

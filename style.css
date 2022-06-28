@@ -1,0 +1,53 @@
+/* main */
+.card-header{
+  background-color: #020066 !important;
+  color: white !important
+    }
+
+/* input section */
+input {
+  border: 2;
+  border-radius: 2;
+  width: 100%;
+  padding: 10px;
+  float: left;
+  font-size: 15px;
+  }
+.btn-light:hover {
+  background-color: #bbb !important;
+  }
+
+/* Link styles */
+ul li {
+  cursor: pointer;
+  position: relative;
+  padding: 15px;
+  background: rgb(182, 181, 248);
+  font-size: 15px;
+  list-style: none;
+  }
+ul li:nth-child(even) {
+  background: rgb(135, 123, 247);
+  }
+ul li:hover {
+  background: #020066;
+  color: white;
+  }
+ul li.checked {
+  background: rgb(69, 124, 69);
+  color: white;
+  text-decoration: line-through;
+  }
+
+/* close function */
+.close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 12px;
+  }
+.close:hover {
+  background-color: #a10064;
+  color: white;
+  }
+
